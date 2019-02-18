@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="utf-8"
+<head>
+  <script defer src="triage.js"></script>
+</head>
+<body>
+  <div id="triager"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      try {
+        let triageList = await fetchTriage();
+        let onDuty = currentTriager(triageList);
+        if (onDuty.error) {
+          throw onDuty.error;
+        }
+        document.getElementById("triager").textContent = `${onDuty.name}, on duty until ${onDuty.till}`;
+      } catch (ex) {
+        alert(ex);
+      }
+    });
+  </script>
+</body>

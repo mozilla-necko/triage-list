@@ -1,0 +1,35 @@
+{
+  "triagers": {
+    "Honza Bambas": {
+      "bzmail": "honzab.moz@firemni.cz"
+    },
+    "Michal Novotny": {
+      "bzmail": "michal.novotny@gmail.com"
+    },
+    "Junior Hsu": {
+      "bzmail": "juhsu@mozilla.com"
+    },
+    "Valentin Gosu": {
+      "bzmail": "valentin.gosu@gmail.com"
+    },
+    "Dragana Damjanovic": {
+      "bzmail": "dd.mozilla@gmail.com"
+    },
+    "Kershaw Chang": {
+      "bzmail": "kershaw@mozilla.com"
+    },
+    "Honza Bambas as Fallback": {
+      "bzmail": "honzab.moz@firemni.cz"
+    }
+  },
+
+  "duty-end-dates": {
+    "2019-02-21": "Michal Novotny",
+    "2019-02-28": "Junior Hsu",
+    "2019-03-07": "Valentin Gosu",
+    "2019-03-14": "Dragana Damjanovic",
+    "2019-03-21": "Kershaw Chang",
+    "2019-03-28": "Honza Bambas",
+    "2038-01-01": "Honza Bambas as Fallback"
+  }
+}
