@@ -20,6 +20,9 @@
     },
     "Honza Bambas as Fallback": {
       "bzmail": "honzab.moz@firemni.cz"
+    },
+    "Fallback (Honza Bambas)": {
+      "bzmail": "honzab.moz@firemni.cz"
     }
   },
 
@@ -30,6 +33,6 @@
     "2019-03-14": "Dragana Damjanovic",
     "2019-03-21": "Kershaw Chang",
     "2019-03-28": "Honza Bambas",
-    "2038-01-01": "Honza Bambas as Fallback"
+    "2038-01-01": "Fallback (Honza Bambas)"
   }
 }
