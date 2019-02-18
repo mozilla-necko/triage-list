@@ -14,5 +14,9 @@ function currentTriager(json) {
   }
 
   const name = duties[date];
-  return Object.assign({ name, till: date }, json.triagers[name]);
+  return Object.assign({
+    name, till: date, toString: function () {
+      return `${this.name}, on duty until ${this.till}`
+    }
+   }, json.triagers[name]);
 }

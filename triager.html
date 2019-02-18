@@ -13,7 +13,8 @@
         if (onDuty.error) {
           throw onDuty.error;
         }
-        document.getElementById("triager").textContent = `${onDuty.name}, on duty until ${onDuty.till}`;
+        document.getElementById("triager").textContent = onDuty;
+        console.log(onDuty);
       } catch (ex) {
         alert(ex);
       }
