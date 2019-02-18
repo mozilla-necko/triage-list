@@ -7,4 +7,4 @@ The core is a hand-maintained JSON file [triage.json](triage.json) with list of 
 
 If the consumer can use JavaScript, there is [triage.js](triage.js) script file with few helper functions to async-fetch the JSON (`fetchTriage()`) and to get the current triager (`currentTriager(json)`).  Result of `currentTriager` is an object with properties `name`, `till` being a date string YYYY-MM-DD with the ending date, and `bzmail` with the bugzilla email to nag.
 
-And to quickly view the current triage duty, go to [triager.html](triager.html)
+And to quickly view the current triage duty, go to [triager.html](https://mozilla-necko.github.io/triage-list/triager.html)
