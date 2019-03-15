@@ -1,0 +1,27 @@
+{
+  "name": "triage-list",
+  "version": "1.0.0",
+  "description": "Semi-automated set of scripts and data to provide a calendar and source for automatic Mozilla Necko team triage assignment",
+  "main": "triage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "nodejs triage.js update",
+    "exempt": "nodejs triage.js exempt",
+    "prepublish": "nodejs triage.js prepublish",
+    "publish": "echo now publishing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla-necko/triage-list.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mozilla-necko/triage-list/issues"
+  },
+  "homepage": "https://github.com/mozilla-necko/triage-list#readme",
+  "dependencies": {
+    "ical-toolkit": "^1.0.9",
+    "node-fetch": "^2.3.0"
+  }
+}
