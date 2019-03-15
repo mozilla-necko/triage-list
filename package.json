@@ -8,7 +8,7 @@
     "update": "nodejs triage.js update",
     "exempt": "nodejs triage.js exempt",
     "prepush": "nodejs triage.js prepush",
-    "push": "echo now publishing"
+    "push": "git commit -m \"Update via 'npm run push'\" && git push"
   },
   "repository": {
     "type": "git",
