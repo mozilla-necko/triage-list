@@ -92,7 +92,8 @@ function commandPrepush() {
   builder.timezone = "UTC";
   builder.tzid = "UTC";
   builder.additionalTags = {
-    'REFRESH-INTERVAL': 'VALUE=DURATION:P1H'
+    'REFRESH-INTERVAL': 'VALUE=DURATION:P1H',
+    'X-WR-CALDESC': 'Necko Triage'
   };
 
   for (let duty_date in duties) {
