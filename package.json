@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/mozilla-necko/triage-list#readme",
   "dependencies": {
-    "ical-toolkit": "^1.0.9",
+    "ical-toolkit": "^1.0.9"
   }
 }
