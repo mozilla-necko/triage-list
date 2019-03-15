@@ -98,8 +98,13 @@ function commandPrepush() {
   };
 
   for (let duty_date in duties) {
+    if (duty_date === FALLBACK_DATE) {
+      continue;
+    }
+
     let duty_triager = duties[duty_date];
-    duty_date = new Date(duty_date);
+    // Make the last day inclusive
+    duty_date = new Date(duty_date).getTime() + DAY_TO_MS;
     builder.events.push({
       start: new Date(duty_date - CYCLE_LENGTH_MS),
       end: new Date(duty_date),
