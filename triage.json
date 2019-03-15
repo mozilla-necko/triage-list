@@ -18,18 +18,24 @@
     "Kershaw Chang": {
       "bzmail": "kershaw@mozilla.com"
     },
-    "Fallback (Honza Bambas)": {
+    "Fallback": {
       "bzmail": "honzab.moz@firemni.cz"
     }
   },
-
   "duty-end-dates": {
-    "2019-02-21": "Michal Novotny",
-    "2019-02-28": "Junior Hsu",
-    "2019-03-07": "Valentin Gosu",
-    "2019-03-14": "Dragana Damjanovic",
-    "2019-03-21": "Kershaw Chang",
-    "2019-03-28": "Honza Bambas",
-    "2035-01-01": "Fallback (Honza Bambas)"
+    "2019-03-22": "Kershaw Chang",
+    "2019-03-29": "Honza Bambas",
+    "2019-04-05": "Michal Novotny",
+    "2019-04-12": "Junior Hsu",
+    "2019-04-19": "Valentin Gosu",
+    "2019-04-26": "Dragana Damjanovic",
+    "2019-05-03": "Kershaw Chang",
+    "2019-05-10": "Honza Bambas",
+    "2019-05-17": "Michal Novotny",
+    "2019-05-24": "Junior Hsu",
+    "2019-05-31": "Valentin Gosu",
+    "2019-06-07": "Dragana Damjanovic",
+    "2019-06-14": "Kershaw Chang",
+    "2035-01-01": "Fallback"
   }
 }

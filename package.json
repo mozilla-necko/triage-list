@@ -4,11 +4,11 @@
   "description": "Semi-automated set of scripts and data to provide a calendar and source for automatic Mozilla Necko team triage assignment",
   "main": "triage.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "help": "nodejs triage.js help",
     "update": "nodejs triage.js update",
     "exempt": "nodejs triage.js exempt",
-    "prepublish": "nodejs triage.js prepublish",
-    "publish": "echo now publishing"
+    "prepush": "nodejs triage.js prepush",
+    "push": "echo now publishing"
   },
   "repository": {
     "type": "git",
