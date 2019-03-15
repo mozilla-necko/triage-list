@@ -4,8 +4,8 @@ const help_string =
   `Usage: npm run <command> -- [arguments]
 commands
   * update: automatically extends the json calendar with triagers using the default list, adds only one cycle
-  * prepush: updates the ICS generated file with data from the json calendar (called before publish automatically)
   * exempt -- <date>: removes a triager on duty at the specified <date> from the calendar and shifts all triagers
+  * prepush: updates the ICS generated file with data from the json calendar (called automatically as part of push)
   * push: pushes the changes to the repo and makes them public, refreshes the ics file as well`;
 
 const TRIAGE_JSON_FILE = "triage.json";
@@ -13,8 +13,8 @@ const TRIAGE_ICAL_FILE = "necko-triage.ics";
 const FALLBACK_DATE = "2035-01-01";
 const FALLBACK_TRIAGER = "Fallback";
 const CYCLE_LENGTH_DAYS = 7;
-const DAY_TO_MS = 60 * 60 * 1000;
-const CYCLE_LENGTH_MS = CYCLE_LENGTH_DAYS * 24 * DAY_TO_MS;
+const DAY_TO_MS = 24 * 60 * 60 * 1000;
+const CYCLE_LENGTH_MS = CYCLE_LENGTH_DAYS * DAY_TO_MS;
 
 function readTriage() {
   let data = fs.readFileSync(TRIAGE_JSON_FILE);
@@ -99,8 +99,7 @@ function commandPrepush() {
 
   for (let duty_date in duties) {
     let duty_triager = duties[duty_date];
-    // Make the end-date inclusive
-    duty_date = new Date(new Date(duty_date).getTime() + DAY_TO_MS);
+    duty_date = new Date(duty_date);
     builder.events.push({
       start: new Date(duty_date - CYCLE_LENGTH_MS),
       end: new Date(duty_date),
@@ -159,5 +158,3 @@ switch (command) {
   default:
     console.log(help_string);
 }
-
-console.log("Done\n");
