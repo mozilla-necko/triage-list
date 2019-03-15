@@ -10,11 +10,11 @@ Just use [this link to add it to gcal](https://calendar.google.com/calendar/r?ci
 
 ## To update the triage list
 ```
-$git clone https://github.com/mozilla-necko/triage-list.git
-$cd triage-list
-$npm install
-$npm run update
-$npm run push
+git clone https://github.com/mozilla-necko/triage-list.git
+cd triage-list
+npm install
+npm run update
+npm run push
 ```
 
 `npm run update` will automatically append the next full cycle of all triagers to the `triage.json` file.  `npm run push` will update the ICS file and `git push` the changes.  Then you are done.
