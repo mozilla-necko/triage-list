@@ -52,6 +52,7 @@ function commandUpdate() {
   let { triage, triagers, duties } = readTriage();
 
   let last_date = Object.keys(duties)
+    .sort()
     .filter(date => date !== FALLBACK_DATE)
     .slice(-1);
   if (!last_date) {
@@ -124,7 +125,7 @@ function commandExempt(exempt_date) {
   exempt_date = new Date(exempt_date);
   let dates_to_shift = Object.keys(duties).filter(date => {
     return new Date(date).getTime() >= exempt_date;
-  });
+  }).sort();
 
   for (
     let date = dates_to_shift.shift();
