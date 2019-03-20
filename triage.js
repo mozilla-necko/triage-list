@@ -90,8 +90,8 @@ function commandPrepush() {
   let builder = ical.createIcsFileBuilder();
 
   builder.calname = "Necko Triage";
-  builder.timezone = "UTC";
-  builder.tzid = "UTC";
+  builder.timezone = "Europe/Dublin";
+  builder.tzid = "Europe/Dublin";
   builder.additionalTags = {
     'REFRESH-INTERVAL': 'VALUE=DURATION:P1H',
     'X-WR-CALDESC': 'Necko Triage'
