@@ -37,7 +37,7 @@ function nextTriager(triagers, current_triager) {
   }
   
   ++index;
-  if (index >= manames.lengthx) {
+  if (index >= names.length) {
     index = 0;
   }
 
