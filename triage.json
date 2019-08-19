@@ -17,6 +17,9 @@
     },
     "Kershaw Chang": {
       "bzmail": "kershaw@mozilla.com"
+    },
+    "Andy Grover": {
+      "bzmail": "agrover@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -42,6 +45,13 @@
     "2019-07-26": "Junior Hsu",
     "2019-08-02": "Dragana Damjanovic",
     "2019-08-09": "Kershaw Chang",
-    "2019-08-16": "Honza Bambas"
+    "2019-08-16": "Honza Bambas",
+    "2019-08-23": "Michal Novotny",
+    "2019-08-30": "Junior Hsu",
+    "2019-09-06": "Valentin Gosu",
+    "2019-09-13": "Dragana Damjanovic",
+    "2019-09-20": "Kershaw Chang",
+    "2019-09-27": "Andy Grover",
+    "2019-10-04": "Honza Bambas"
   }
 }
