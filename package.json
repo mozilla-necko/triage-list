@@ -4,10 +4,10 @@
   "description": "Semi-automated set of scripts and data to provide a calendar and source for automatic Mozilla Necko team triage assignment",
   "main": "triage.js",
   "scripts": {
-    "help": "nodejs triage.js help",
-    "update": "nodejs triage.js update",
-    "exempt": "nodejs triage.js exempt",
-    "prepush": "nodejs triage.js prepush",
+    "help": "node triage.js help",
+    "update": "node triage.js update",
+    "exempt": "node triage.js exempt",
+    "prepush": "node triage.js prepush",
     "push": "git add . && git commit -m \"Update via 'npm run push'\" && git push"
   },
   "repository": {
