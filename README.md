@@ -21,4 +21,12 @@ npm run push
 
 If you already cloned before, then `update` and `push` commands are enough to publicly update the list.
 
+## To remove a triager from the list because of PTO
+Assuming you already cloned the repo as described above
+```
+npm run exempt -- <YYYY-MM-DD>
+npm run push
+```
+where YYYY-MM-DD is the date from `duty-start-dates` you want to remove.  The triager at that date will be removed and all following triagers after the date will be shifted one week earlier.
+
 Run `npm run help` for the full list of commands.
