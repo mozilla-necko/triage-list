@@ -1,11 +1,5 @@
 {
   "triagers": {
-    "Honza Bambas": {
-      "bzmail": "honzab.moz@firemni.cz"
-    },
-    "Michal Novotny": {
-      "bzmail": "michal.novotny@gmail.com"
-    },
     "Kershaw Chang": {
       "bzmail": "kershaw@mozilla.com"
     },
@@ -14,12 +8,6 @@
     },
     "Dragana Damjanovic": {
       "bzmail": "dd.mozilla@gmail.com"
-    },
-    "Junior Hsu": {
-      "bzmail": "juhsu@mozilla.com"
-    },
-    "Andy Grover": {
-      "bzmail": "agrover@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -98,24 +86,17 @@
     "2020-07-31": "Honza Bambas",
     "2020-08-07": "Kershaw Chang",
     "2020-08-14": "Dragana Damjanovic",
-    "2020-08-21": "Valentin Gosu",
-    "2020-08-28": "Junior Hsu",
-    "2020-09-04": "Andy Grover",
-    "2020-09-11": "Honza Bambas",
-    "2020-09-18": "Michal Novotny",
-    "2020-09-25": "Kershaw Chang",
-    "2020-10-02": "Valentin Gosu",
-    "2020-10-09": "Dragana Damjanovic",
-    "2020-10-16": "Junior Hsu",
-    "2020-10-23": "Andy Grover",
-    "2020-10-30": "Honza Bambas",
-    "2020-11-06": "Michal Novotny",
-    "2020-11-13": "Kershaw Chang",
-    "2020-11-20": "Valentin Gosu",
-    "2020-11-27": "Dragana Damjanovic",
-    "2020-12-04": "Junior Hsu",
-    "2020-12-11": "Andy Grover",
-    "2020-12-18": "Honza Bambas",
-    "2020-12-25": "Michal Novotny"
+    "2020-08-21": "Kershaw Chang",
+    "2020-08-28": "Valentin Gosu",
+    "2020-09-04": "Dragana Damjanovic",
+    "2020-09-11": "Kershaw Chang",
+    "2020-09-18": "Valentin Gosu",
+    "2020-09-25": "Dragana Damjanovic",
+    "2020-10-02": "Kershaw Chang",
+    "2020-10-09": "Valentin Gosu",
+    "2020-10-16": "Dragana Damjanovic",
+    "2020-10-23": "Kershaw Chang",
+    "2020-10-30": "Valentin Gosu",
+    "2020-11-06": "Dragana Damjanovic"
   }
 }
