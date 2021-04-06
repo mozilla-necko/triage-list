@@ -3,11 +3,11 @@
     "Kershaw Chang": {
       "bzmail": "kershaw@mozilla.com"
     },
-    "Valentin Gosu": {
-      "bzmail": "valentin.gosu@gmail.com"
-    },
     "Dragana Damjanovic": {
       "bzmail": "dd.mozilla@gmail.com"
+    },
+    "Valentin Gosu": {
+      "bzmail": "valentin.gosu@gmail.com"
     },
     "Nihanth Subramanya": {
       "bzmail": "nhnt11@gmail.com"
@@ -119,6 +119,14 @@
     "2021-03-03": "Kershaw Chang",
     "2021-03-10": "Dragana Damjanovic",
     "2021-03-17": "Valentin Gosu",
-    "2021-03-24": "Nihanth Subramanya"
+    "2021-03-24": "Nihanth Subramanya",
+    "2021-03-31": "Kershaw Chang",
+    "2021-04-07": "Dragana Damjanovic",
+    "2021-04-14": "Valentin Gosu",
+    "2021-04-21": "Nihanth Subramanya",
+    "2021-04-28": "Kershaw Chang",
+    "2021-05-05": "Dragana Damjanovic",
+    "2021-05-12": "Valentin Gosu",
+    "2021-05-19": "Nihanth Subramanya"
   }
 }
