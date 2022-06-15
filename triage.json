@@ -5,6 +5,9 @@
     },
     "Dragana Damjanovic": {
       "bzmail": "dd.mozilla@gmail.com"
+    },
+    "Ed Guloien": {
+      "bzmail": "eguloien@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -176,12 +179,11 @@
     "2022-05-24": "Dragana Damjanovic",
     "2022-05-31": "Kershaw Chang",
     "2022-06-07": "Dragana Damjanovic",
-    "2022-06-14": "Kershaw Chang",
-    "2022-06-21": "Dragana Damjanovic",
-    "2022-06-28": "Kershaw Chang",
-    "2022-07-05": "Dragana Damjanovic",
+    "2022-06-14": "Ed Guloien",
+    "2022-06-21": "Kershaw Chang",
+    "2022-06-28": "Dragana Damjanovic",
+    "2022-07-05": "Ed Guloien",
     "2022-07-12": "Kershaw Chang",
-    "2022-07-19": "Dragana Damjanovic",
-    "2022-07-26": "Kershaw Chang"
+    "2022-07-19": "Dragana Damjanovic"
   }
 }
