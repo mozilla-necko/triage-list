@@ -8,6 +8,9 @@
     },
     "Ed Guloien": {
       "bzmail": "eguloien@mozilla.com"
+    },
+    "Manuel Bucher": {
+      "bzmail": "mbucher@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -182,8 +185,10 @@
     "2022-06-14": "Ed Guloien",
     "2022-06-21": "Kershaw Chang",
     "2022-06-28": "Dragana Damjanovic",
-    "2022-07-05": "Ed Guloien",
-    "2022-07-12": "Kershaw Chang",
-    "2022-07-19": "Dragana Damjanovic"
+    "2022-07-11": "Ed Guloien",
+    "2022-07-14": "Manuel Bucher",
+    "2022-07-16": "Ed Guloien",
+    "2022-07-25": "Kershaw Chang",
+    "2022-08-02": "Dragana Damjanovic"
   }
 }
