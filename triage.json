@@ -1,5 +1,8 @@
 {
   "triagers": {
+    "Randell Jesup": {
+      "bzmail": "rjesup@jesup.org"
+    },
     "Kershaw Chang": {
       "bzmail": "kershaw@mozilla.com"
     },
@@ -200,8 +203,9 @@
     "2022-10-18": "Kershaw Chang",
     "2022-10-25": "Valentin Gosu",
     "2022-11-01": "Ed Guloien",
-    "2022-11-08": "Kershaw Chang",
-    "2022-11-15": "Valentin Gosu",
-    "2022-11-22": "Ed Guloien"
+    "2022-11-08": "Randell Jesup",
+    "2022-11-15": "Kershaw Chang",
+    "2022-11-22": "Valentin Gosu",
+    "2022-11-29": "Ed Guloien"
   }
 }
