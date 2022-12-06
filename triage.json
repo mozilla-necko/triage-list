@@ -11,6 +11,9 @@
     },
     "Ed Guloien": {
       "bzmail": "eguloien@mozilla.com"
+    },
+    "Sunil Mayya": {
+      "bzmail": "smayya@mozilla.com"
     }
   },
   "duty-start-dates": {
@@ -208,8 +211,11 @@
     "2022-11-22": "Valentin Gosu",
     "2022-11-29": "Ed Guloien",
     "2022-12-06": "Randell Jesup",
-    "2022-12-13": "Kershaw Chang",
-    "2022-12-20": "Valentin Gosu",
-    "2022-12-27": "Ed Guloien"
+    "2022-12-13": "Sunil Mayya",
+    "2022-12-20": "Kershaw Chang",
+    "2022-12-27": "Ed Guloien",
+    "2023-01-03": "Valentin Gosu",
+    "2023-01-10": "Randell Jesup",
+    "2023-01-17": "Kershaw Chang"
   }
 }
