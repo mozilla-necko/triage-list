@@ -11,6 +11,9 @@
     },
     "Sunil Mayya": {
       "bzmail": "smayya@mozilla.com"
+    },
+    "Randell Jesup": {
+      "bzmail": "rjesup@jesup.org"
     }
   },
   "duty-start-dates": {
@@ -225,6 +228,11 @@
     "2023-03-21": "Kershaw Chang",
     "2023-03-28": "Valentin Gosu",
     "2023-04-04": "Ed Guloien",
-    "2023-04-11": "Sunil Mayya"
+    "2023-04-11": "Sunil Mayya",
+    "2023-04-18": "Randell Jesup",
+    "2023-04-25": "Kershaw Chang",
+    "2023-05-02": "Valentin Gosu",
+    "2023-05-09": "Ed Guloien",
+    "2023-05-16": "Sunil Mayya"
   }
 }
