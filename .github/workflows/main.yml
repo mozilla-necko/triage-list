@@ -2,6 +2,7 @@ name: Node.js Workflow
 on:
   schedule:
     - cron: "0 0 */42 * *"
+  workflow_dispatch:
 
 jobs:
   build:
