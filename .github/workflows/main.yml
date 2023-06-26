@@ -1,0 +1,33 @@
+name: Node.js Workflow
+on:
+  schedule:
+    - cron: "0 0 */42 * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Node.js script
+        run: npm run update
+
+      - name: Configure Git
+        run: |
+          git config user.name "Necko calendar bot"
+          git config user.email "neckobot@mozilla.test"
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Automated commit message"
+          git push
