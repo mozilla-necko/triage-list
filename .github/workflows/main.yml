@@ -28,7 +28,4 @@ jobs:
           git config user.email "neckobot@mozilla.test"
 
       - name: Commit changes
-        run: |
-          git add .
-          git commit -m "Automated commit message"
-          git push
+        run: npm run push
