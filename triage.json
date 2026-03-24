@@ -9,9 +9,6 @@
     "Kershaw Chang": {
       "bzmail": "kershaw@mozilla.com"
     },
-    "Ed Guloien": {
-      "bzmail": "eguloien@mozilla.com"
-    },
     "Sunil Mayya": {
       "bzmail": "smayya@mozilla.com"
     }
@@ -382,28 +379,14 @@
     "2026-03-03": "Valentin Gosu",
     "2026-03-10": "Randell Jesup",
     "2026-03-17": "Kershaw Chang",
-    "2026-03-24": "Ed Guloien",
+    "2026-03-24": "Kershaw Chang",
     "2026-03-31": "Sunil Mayya",
     "2026-04-07": "Valentin Gosu",
     "2026-04-14": "Randell Jesup",
     "2026-04-21": "Kershaw Chang",
-    "2026-04-28": "Ed Guloien",
-    "2026-05-05": "Sunil Mayya",
-    "2026-05-12": "Valentin Gosu",
-    "2026-05-19": "Randell Jesup",
-    "2026-05-26": "Kershaw Chang",
-    "2026-06-02": "Ed Guloien",
-    "2026-06-09": "Sunil Mayya",
-    "2026-06-16": "Valentin Gosu",
-    "2026-06-23": "Randell Jesup",
-    "2026-06-30": "Kershaw Chang",
-    "2026-07-07": "Ed Guloien",
-    "2026-07-14": "Sunil Mayya",
-    "2026-07-21": "Valentin Gosu",
-    "2026-07-28": "Randell Jesup",
-    "2026-08-04": "Kershaw Chang",
-    "2026-08-11": "Ed Guloien",
-    "2026-08-18": "Sunil Mayya",
-    "2026-08-25": "Valentin Gosu"
+    "2026-04-28": "Sunil Mayya",
+    "2026-05-05": "Valentin Gosu",
+    "2026-05-12": "Randell Jesup",
+    "2026-05-19": "Kershaw Chang"
   }
 }
