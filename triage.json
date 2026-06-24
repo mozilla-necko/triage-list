@@ -11,6 +11,9 @@
     },
     "Sunil Mayya": {
       "bzmail": "smayya@mozilla.com"
+    },
+    "Max Inden": {
+      "bzmail": "mail@max-inden.de"
     }
   },
   "duty-start-dates": {
@@ -393,11 +396,11 @@
     "2026-06-09": "Randell Jesup",
     "2026-06-16": "Kershaw Chang",
     "2026-06-23": "Sunil Mayya",
-    "2026-06-30": "Valentin Gosu",
+    "2026-06-30": "Max Inden",
     "2026-07-07": "Randell Jesup",
     "2026-07-14": "Kershaw Chang",
     "2026-07-21": "Sunil Mayya",
-    "2026-07-28": "Valentin Gosu",
+    "2026-07-28": "Max Inden",
     "2026-08-04": "Randell Jesup",
     "2026-08-11": "Kershaw Chang"
   }
